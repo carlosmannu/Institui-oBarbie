@@ -1,0 +1,40 @@
+.devs-main {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+.dev-card {
+    width: 30%;
+    margin: 1rem;
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.dev-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.dev-card h2 {
+    margin-bottom: 0.5rem;
+}
+
+.dev-card p {
+    margin-bottom: 0.8rem;
+}
+
+@media (max-width: 768px) {
+    .dev-card {
+        width: 100%; 
+        margin: 1rem 0;
+    }
+}
